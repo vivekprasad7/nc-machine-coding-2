@@ -1,0 +1,26 @@
+.habit-card{
+    display: inline-block;
+    border: solid 1px black;
+    width:150px;
+    padding:4rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+
+.contents{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.title{
+    height: 80%;
+}
+
+.card-icons{
+    display: flex;
+    justify-content: space-around;
+    height:20%;
+    cursor: pointer;
+}
+

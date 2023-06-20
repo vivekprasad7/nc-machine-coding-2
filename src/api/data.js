@@ -1,0 +1,60 @@
+import {v4 as uuid} from "uuid"
+
+export const data = [
+    {
+        id: uuid(),
+        name: "Cycling",
+        repeat: "Daily",
+        goal: "1 times Daily",
+        timeOfDay: "Evening",
+        startDate: "Today",
+      },
+      {
+        id: uuid(),
+        name: "Meditate",
+        repeat: "Daily",
+        goal: "1 times Daily",
+        timeOfDay: "Morning",
+        startDate: "Yesterday",
+      },
+      {
+        id: uuid(),
+        name: "Drink Water",
+        repeat: "Daily",
+        goal: "2 times Daily",
+        timeOfDay: "Afternoon",
+        startDate: "Tomorrow",
+      },
+      {
+        id: uuid(),
+        name: "Read Books",
+        repeat: "Weekly",
+        goal: "1 times Weekly",
+        timeOfDay: "Night",
+        startDate: "Tomorrow",
+      },
+      {
+        id: uuid(),
+        name: "Running",
+        repeat: "Daily",
+        goal: "1 times Daily",
+        timeOfDay: "Morning",
+        startDate: "Tomorrow",
+      },
+      {
+        id: uuid(),
+        name: "Hit the Gym",
+        repeat: "Weekly",
+        goal: "2 times Weekly",
+        timeOfDay: "Evening",
+        startDate: "Today",
+      },
+      {
+        id: uuid(),
+        name: "Study",
+        repeat: "Weekly",
+        goal: "2 times Weekly",
+        timeOfDay: "Night",
+        startDate: "Today",
+      },
+]
