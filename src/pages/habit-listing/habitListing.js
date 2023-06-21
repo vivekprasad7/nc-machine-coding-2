@@ -14,7 +14,7 @@ export const HabitListing = () => {
     <div className="habit_listing" style={{filter: displayProps.isFormVisible || displayProps.isHabitDetailsVisible ? "blur(5px)" : "" }}>
       <Navbar/>
       {/* <NavbarWhite/> */}
-      <h2>Habit Listing Page</h2>
+      <h2>Habit Listing </h2>
       <button onClick={()=> setDisplayProps({...displayProps, isFormVisible : !displayProps.isFormVisible})}>Add New Habit</button>
       <div>
         {
