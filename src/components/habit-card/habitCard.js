@@ -17,14 +17,14 @@ export const HabitCard = ({item}) => {
 
   return (
     <>
-    <div onClick={() => {
+    <div  className='habit-card'>
+        <div className='contents'>
+
+        <div onClick={() => {
       setDisplayProps({...displayProps, isHabitDetailsVisible : true}) 
       setHabitDetailsData(item)
   
-  }} className='habit-card'>
-        <div className='contents'>
-
-        <div className='title'>
+  }} className='title'>
         <h3>{item.name}</h3>
         </div>
 
